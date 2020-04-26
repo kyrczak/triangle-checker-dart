@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:triangle_checker/painters.dart';
 import 'functions.dart';
 
+//By Patryk Korczak 2020
+
 class Home extends StatefulWidget {
   @override
   _HomeState createState() => _HomeState();
