@@ -138,6 +138,7 @@ class _HomeState extends State<Home> {
                     style: TextStyle(
                       color: answerColor,
                       fontSize: 22.0,
+                      fontWeight: FontWeight.bold,
                     ),
                     textAlign: TextAlign.center,
                   ),
