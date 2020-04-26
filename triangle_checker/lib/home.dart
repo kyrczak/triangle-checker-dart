@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:triangle_checker/painters.dart';
 import 'functions.dart';
 
 class Home extends StatefulWidget {
@@ -140,6 +141,13 @@ class _HomeState extends State<Home> {
                     ),
                     textAlign: TextAlign.center,
                   ),
+                ),
+              ),
+              Container(
+                height: MediaQuery.of(context).size.height * 0.2,
+                width: MediaQuery.of(context).size.width,
+                child: CustomPaint(
+                  painter: TriangleDownPaint(),
                 ),
               ),
             ],
